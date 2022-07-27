@@ -4,7 +4,8 @@
   "description": "bot",
   "main": "src/index.js",
   "scripts": {
-    "test": "node ."
+    "test": "node .",
+    "build": "npm install; node run test"
   },
   "keywords": [],
   "author": "AntarctikFoxx",
