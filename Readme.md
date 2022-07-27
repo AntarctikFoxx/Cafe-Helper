@@ -6,5 +6,5 @@ It does things (hopefully).
 
 Deployed to Netlify
 
-Build with:
+Run with:
 'node run test'
