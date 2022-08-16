@@ -1,20 +1,25 @@
 {
-  "name": "discord-bot",
+  "name": "cafehelper",
   "version": "1.0.0",
-  "description": "bot",
-  "main": "src/index.js",
+  "description": "Custom Discord bot for Cafe Furs",
+  "main": "index.js",
   "scripts": {
-    "test": "node .",
-    "build": "npm install; node run test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "node deployCommands.js"
   },
-  "keywords": [],
-  "author": "AntarctikFoxx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntarctikFoxx/Cafe-Helper.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntarctikFoxx/Cafe-Helper/issues"
+  },
+  "homepage": "https://github.com/AntarctikFoxx/Cafe-Helper#readme",
   "dependencies": {
-    "@discordjs/rest": "^1.0.0",
-    "chalk": "^4.1.2",
-    "discord-api-types": "^0.36.3",
-    "discord.js": "^14.0.3",
+    "discord.js": "^14.2.0",
     "dotenv": "^16.0.1"
   }
 }
