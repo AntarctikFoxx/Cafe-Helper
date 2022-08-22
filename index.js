@@ -1,3 +1,4 @@
+// whenever "client" is mentioned it means the bot
 //set up dotenv to read the .env file
 require('dotenv').config()
 
@@ -9,7 +10,6 @@ const token = process.env.BOT_TOKEN;
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
-
 
 // When the client is ready, run this code (only once)
 client.once('ready', () => {
@@ -27,7 +27,7 @@ client.on('interactionCreate', async interaction => {
 	if (commandName === 'ping') {
 		await interaction.reply('Pong!');
 	} else if (commandName === 'server') {
-		await interaction.reply(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`);
+		await interaction.reply(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}\nServer ID: ${interaction.guild.id}`);
 	} else if (commandName === 'user') {
 		await interaction.reply((`Your tag: ${interaction.user.tag}\nYour id: ${interaction.user.id}`));
 	}
