@@ -6,6 +6,8 @@ It does things (hopefully).
 
 Deployed to Netlify
 
+The Netlify page is currently not being used until the bot is stable.
+
 To use try doing: 
 npm run start
 

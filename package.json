@@ -1,6 +1,6 @@
 {
   "name": "cafehelper",
-  "version": "1.0.0",
+  "version": "0.3.0",
   "description": "Custom Discord bot for Cafe Furs",
   "main": "index.js",
   "scripts": {
